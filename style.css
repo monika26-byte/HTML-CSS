@@ -82,7 +82,8 @@ padding-right:1px;
 padding-top:1px;
 padding-bottom:1px;
 background-color: green;
-
-
 }
 
+.explore-btn a{
+    text-decoration:none;
+}
