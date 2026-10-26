@@ -9,6 +9,7 @@ nav{
     justify-content: center; 
     list-style: none;
     margin-bottom: 20px;
+    
 }
 
 nav a{
@@ -44,30 +45,39 @@ p{
 
 
 
-.Share-btn,.Gallery-btn{
+.Share-btn,.Gallery-btn {
 
 border-radius: 30px;
 padding-left:5px;
 padding-right:5px;
 padding-top:5px;
 padding-bottom:5px;
-text-decoration: none;
+
 
 }
-.Gallery-btn{
+.Gallery-btn a{
     background-color: green;
     color: white;
-   
+   text-decoration: none;
 }
 
-.Share-btn{
-    background-color: grey;
+.Share-btn a{
+    
     color: black;
+    text-decoration: none;
+}
+
+.Gallery-btn{
+    background-color: green;
+}
+.Share-btn{
+    background-color: white;
 }
 
 
 .explore-btn{
 margin-left:auto;
+margin-right: 10px;
 border-radius: 20px;
 display:block;
 border-radius: 30px;
